@@ -1,4 +1,4 @@
-Server settings for `vps117459.inmotionhosting.com` (, `stage.ginoi.com`, `old.ginoi.com`).
+Server settings for `vps117459.inmotionhosting.com`.
 
 ## The server hosts the websites:
 - `ferreteo.com`
