@@ -5,7 +5,7 @@ AcceptEnv XMODIFIERS
 AuthorizedKeysFile	.ssh/authorized_keys
 ChallengeResponseAuthentication no
 DenyGroups cpaneldemo cpanelsuspended
-# 2025-05-18
+# 2025-05-18 Dmitrii Fediuk https://upwork.com/fl/mage2pro
 # 1) "Connecting to the server via SSH takes too much time (about a minute)":
 # https://github.com/ferreteo-com/192.249.114.178/issues/1
 # 2) https://chatgpt.com/share/68290254-fe9c-8003-aec8-a56db2baf615
@@ -20,7 +20,7 @@ PrintMotd no
 Subsystem	sftp	/usr/libexec/openssh/sftp-server
 SyslogFacility AUTHPRIV
 UseDNS no
-# 2025-05-18
+# 2025-05-18 Dmitrii Fediuk https://upwork.com/fl/mage2pro
 # 1) "Connecting to the server via SSH takes too much time (about a minute)":
 # https://github.com/ferreteo-com/192.249.114.178/issues/1
 # 2) https://chatgpt.com/share/68290254-fe9c-8003-aec8-a56db2baf615
