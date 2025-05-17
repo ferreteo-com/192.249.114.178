@@ -8,7 +8,9 @@ DenyGroups cpaneldemo cpanelsuspended
 # 2025-05-18 Dmitrii Fediuk https://upwork.com/fl/mage2pro
 # 1) "Connecting to the server via SSH takes too much time (about a minute)":
 # https://github.com/ferreteo-com/192.249.114.178/issues/1
-# 2) https://chatgpt.com/share/68290254-fe9c-8003-aec8-a56db2baf615
+# 2) "How did I solve the problem of a slow SSH connection to a particular Linux server?":
+# https://df.tips/t/2638
+# 3) https://chatgpt.com/share/68290254-fe9c-8003-aec8-a56db2baf615
 GSSAPIAuthentication no
 GSSAPICleanupCredentials no
 HostKey /etc/ssh/ssh_host_rsa_key
@@ -23,6 +25,8 @@ UseDNS no
 # 2025-05-18 Dmitrii Fediuk https://upwork.com/fl/mage2pro
 # 1) "Connecting to the server via SSH takes too much time (about a minute)":
 # https://github.com/ferreteo-com/192.249.114.178/issues/1
-# 2) https://chatgpt.com/share/68290254-fe9c-8003-aec8-a56db2baf615
+# 2) "How did I solve the problem of a slow SSH connection to a particular Linux server?":
+# https://df.tips/t/2638
+# 3) https://chatgpt.com/share/68290254-fe9c-8003-aec8-a56db2baf615
 UsePAM no
 X11Forwarding no
