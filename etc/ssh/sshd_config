@@ -5,7 +5,7 @@ AcceptEnv XMODIFIERS
 AuthorizedKeysFile	.ssh/authorized_keys
 ChallengeResponseAuthentication no
 DenyGroups cpaneldemo cpanelsuspended
-# 2025-05-18 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2025-05-18 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # 1) "Connecting to the server via SSH takes too much time (about a minute)":
 # https://github.com/ferreteo-com/192.249.114.178/issues/1
 # 2) "How did I solve the problem of a slow SSH connection to a particular Linux server?":
@@ -22,7 +22,7 @@ PrintMotd no
 Subsystem	sftp	/usr/libexec/openssh/sftp-server
 SyslogFacility AUTHPRIV
 UseDNS no
-# 2025-05-18 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2025-05-18 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # 1) "Connecting to the server via SSH takes too much time (about a minute)":
 # https://github.com/ferreteo-com/192.249.114.178/issues/1
 # 2) "How did I solve the problem of a slow SSH connection to a particular Linux server?":

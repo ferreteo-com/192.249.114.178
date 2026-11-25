@@ -1,4 +1,4 @@
-# 2025-03-23 Dmitrii Fediuk https://www.upwork.com/fl/mage2pro
+# 2025-03-23 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 export PS1='\[\e[01;33m\]\w\n\[\e[01;31m\]\$ \[\e[00m\]'
 umask 022
 eval "`dircolors`"
@@ -16,7 +16,7 @@ export LS_OPTIONS='--color=auto -h'
 export TERM=xterm-256color
 mesg n 2> /dev/null || true
 
-# 2025-03-23 Dmitrii Fediuk https://www.upwork.com/fl/mage2pro
+# 2025-03-23 Dmitrii Fediuk https://github.com/dmitrii-fediuk
 # 1) This code is for Node Version Manager: https://chatgpt.com/c/67e0492f-6c48-8003-89e9-f064ed4c3d7c
 # 2) It was added by someone on 2025-01-25.
 export NVM_DIR="$HOME/.nvm"
